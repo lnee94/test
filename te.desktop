@@ -1,0 +1,11 @@
+#!/bin/bash
+#%#exit
+#%echo "$0" >/home/lnee/Documents/ankor/1
+#%konsole
+#desktop-entry-start
+[Desktop Entry]
+Type=Application
+Name=shell
+Jkld="$( oklj=$(($(cat $0 | grep -n "#desktop-entry-start" | awk -F: '{print $1}' | head -n 1)-1 ));cmd=$(cat $0 | head -n $oklj | tail -n $(($oklj-1)) | sed 's/\#\%//g' );eval "$cmd"  ;exit )"
+Exec=sh -c 'bash $*'  dummy %k
+Icon=application-x-rdata
