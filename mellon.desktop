@@ -1,11 +1,12 @@
 [Desktop Entry]
-Name=melonDS
-GenericName=Nintendo DS Emulator
-Comment=A fast and accurate Nintendo DS emulator.
+Version=1.0
+Name=Melonds
+GenericName=Emulator
 Exec=/usr/bin/melonds
-Type=Application
-Categories=Internet;
 Terminal=false
+X-MultipleArgs=false
+Type=Application
 Icon=/melonicon.png
+Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=application/x-nintendo-ds-rom;
-Keywords=Internet;WWW;Browser;Web;Explorer
+StartupNotify=true
