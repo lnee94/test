@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=melonDS
+GenericName=Nintendo DS Emulator
+Comment=A fast and accurate Nintendo DS emulator.
+Exec=/usr/bin/melonds
+Type=Application
+Categories=Internet;
+Terminal=false
+Icon=/melonicon.png
+MimeType=application/x-nintendo-ds-rom;
+Keywords=emulator;Nintendo;DS;NDS;Nintendo DS;
+X-Flatpak=net.kuribo64.melonDS
